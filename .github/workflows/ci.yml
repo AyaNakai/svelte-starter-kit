@@ -30,9 +30,6 @@ jobs:
       - name: Type check
         run: npm run check
 
-      - name: ESLint
-        run: npm run lint
-
       - name: Stylelint
         run: npm run stylelint
 

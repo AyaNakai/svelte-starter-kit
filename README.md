@@ -8,7 +8,6 @@ Webフロントエンド開発用スターターキット。
 - Svelte 5
 - Vite 8
 - TypeScript 6
-- ESLint
 - Prettier
 - Stylelint
 - Vitest
@@ -28,16 +27,15 @@ npm run dev
 
 ## npm scripts
 
-| コマンド             | 内容                 |
-| -------------------- | -------------------- |
-| npm run dev          | 開発サーバー         |
-| npm run build        | 本番ビルド           |
-| npm run preview      | ビルド結果の確認     |
-| npm run check        | 型チェック           |
-| npm run lint         | ESLint               |
-| npm run stylelint    | Stylelint            |
-| npm run format:check | Prettier             |
-| npm run test         | コンポーネントテスト |
+| コマンド             | 内容                           |
+| -------------------- | ------------------------------ |
+| npm run dev          | 開発サーバー                   |
+| npm run build        | 本番ビルド                     |
+| npm run preview      | ビルド結果の確認               |
+| npm run check        | Svelte・TypeScriptの型チェック |
+| npm run stylelint    | CSS・Svelteのスタイル検査      |
+| npm run format:check | Prettierによる整形チェック     |
+| npm run test         | コンポーネントテスト           |
 
 ## ディレクトリ
 

@@ -15,9 +15,7 @@
     <h2 id="cta-title">{title}</h2>
     <p>{description}</p>
 
-    <a href="#components" class="cta-link">
-      サンプルボタン2
-    </a>
+    <a href="#components" class="cta-link"> サンプルボタン2 </a>
   </div>
 </section>
 

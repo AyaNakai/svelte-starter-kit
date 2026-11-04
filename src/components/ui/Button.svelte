@@ -16,11 +16,7 @@
   }: Props = $props();
 </script>
 
-<button
-  {type}
-  {...attributes}
-  class={['button', `button-${variant}`, className]}
->
+<button {type} {...attributes} class={['button', `button-${variant}`, className]}>
   {@render children()}
 </button>
 

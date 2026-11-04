@@ -19,40 +19,27 @@
       <div class="container">
         <h2>About</h2>
         <p>
-          Svelte 5を使用した開発スターターキットです。<br/>
+          Svelte 5を使用した開発スターターキットです。<br />
           共通UIや開発環境の動作確認に利用できます。
         </p>
       </div>
     </section>
 
-    <section
-      id="components"
-      class="section"
-      aria-label="UIコンポーネントのデモ"
-    >
+    <section id="components" class="section" aria-label="UIコンポーネントのデモ">
       <div class="container">
         <div class="card-grid">
           <Card title="サンプルUIカウンター">
             <p>現在のカウント：{count}</p>
 
             {#snippet footer()}
-              <Button onclick={() => count++}>
-                カウントアップ
-              </Button>
+              <Button onclick={() => count++}>カウントアップ</Button>
 
-              <Button
-                variant="secondary"
-                onclick={() => (count = 0)}
-              >
-                リセット
-              </Button>
+              <Button variant="secondary" onclick={() => (count = 0)}>リセット</Button>
             {/snippet}
           </Card>
 
           <Card title="Components">
-            <p>
-              コンポーネントを追加してください。
-            </p>
+            <p>コンポーネントを追加してください。</p>
           </Card>
         </div>
       </div>

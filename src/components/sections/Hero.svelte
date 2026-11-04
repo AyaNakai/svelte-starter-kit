@@ -16,9 +16,7 @@
     <h1 id="hero-title">{title}</h1>
     <p class="hero-description">{description}</p>
 
-    <a href="#about" class="hero-link">
-      サンプルボタン
-    </a>
+    <a href="#about" class="hero-link"> サンプルボタン </a>
   </div>
 </section>
 

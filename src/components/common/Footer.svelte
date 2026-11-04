@@ -11,7 +11,8 @@
 <footer class="footer">
   <div class="footer-inner">
     <small>
-      &copy; {currentYear} {siteName}
+      &copy; {currentYear}
+      {siteName}
     </small>
 
     <a href="#top">ページトップへ</a>

@@ -8,12 +8,7 @@
     class?: string;
   };
 
-  let {
-    title,
-    children,
-    footer,
-    class: className = '',
-  }: Props = $props();
+  let { title, children, footer, class: className = '' }: Props = $props();
 </script>
 
 <article class={['card', className]}>

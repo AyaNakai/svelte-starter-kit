@@ -1,0 +1,26 @@
+
+:root {
+  /* Color */
+  --color-primary: #2563eb;
+  --color-text: #1f2937;
+  --color-background: #fff;
+  --color-border: #e5e7eb;
+
+  /* Typography */
+  --font-family-base: "Roboto", "Noto Sans JP", sans-serif;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+
+  /* Layout */
+  --container-width: 1200px;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+}
